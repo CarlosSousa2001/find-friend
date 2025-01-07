@@ -24,13 +24,13 @@ model Org {
   addresses Address[]
   pets      Pet[]
 
-  @@map("users")
+  @@map("Orgs")
 }
 
 model Address {
   id String @id @default(uuid())
 
-  cep    String
+  zip    String
   city   String
   street String
 
