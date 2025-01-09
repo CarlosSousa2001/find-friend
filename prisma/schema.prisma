@@ -34,7 +34,7 @@ model Address {
   city   String
   street String
 
-  logitude Decimal
+  longitude Decimal
   latitude Decimal
 
   orgId String
